@@ -1,0 +1,44 @@
+*.gem
+*.rbc
+*.yml.a*
+/.config
+/config/.env
+/config/.env.test
+/config/.env.development
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/certs/*.pem
+/spec/reports/
+/test/tmp/
+/test/version_tmp/
+/tmp/
+
+## Specific to RubyMotion:
+.dat*
+.repl_history
+build/
+
+## Documentation cache and generated files:
+/.yardoc/
+/_yardoc/
+/doc/
+/rdoc/
+
+## Environment normalisation:
+/.bundle/
+/lib/bundler/man/
+.rvmrc
+
+## Gem ignores
+/Gemfile.lock
+/.ruby-version
+/.ruby-gemset
+
+*.so
+*.o
+*.a
+mkmf.log
+
+# Custom
+config/gem_sources.yml

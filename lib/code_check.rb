@@ -1,4 +1,6 @@
 require 'lotus/model'
+require 'lotus/model/adapters/file_system_adapter'
+
 Dir["#{ __dir__ }/**/*.rb"].each { |file| require_relative file }
 
 Lotus::Model.configure do

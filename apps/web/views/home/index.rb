@@ -1,6 +1,6 @@
 module Web::Views::Home
-  class Show
-    include Lotus::View
+  class Index
+    include Web::View
     def call(params)
       puts params
     end

@@ -1,4 +1,4 @@
-module Web::Controllers::Home
+module Web::Controllers::Result
   class Index
     include Web::Action
 

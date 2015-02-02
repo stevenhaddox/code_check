@@ -1,5 +1,5 @@
 module Web::Views::Home
-  class Index
+  class Show
     include Web::View
     def call(params)
       puts params

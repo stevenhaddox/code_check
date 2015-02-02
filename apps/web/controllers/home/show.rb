@@ -1,6 +1,6 @@
 module Web::Controllers::Home
-  class Index
-    include Web::Action
+  class Show
+    include Lotus::Action
     def call(params)
       puts "#{params.inspect}"
     end

@@ -7,9 +7,10 @@
 # Please, uncomment the following line to have a working example.
 get '/', to: 'home#index'
 
-#get '/gitlab', to: 'gitlab#index'
-#namespace 'gitlab' do
-  #
-  #namespace 'namespace' do
-#    namespace 'result' do
-#
+namespace 'gitlab' do
+  get '/', to: 'gitlab#index'
+  get '/:namespace', to: 'gitlab#namespace'
+  get '/:namespace/:name', to: 'gitlab#name'
+  get '/:namespace/:name/:result', to: 'gitlab#result'
+  post '/', to: 'gitlab#queue'
+end

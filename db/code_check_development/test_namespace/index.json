@@ -1,0 +1,18 @@
+{
+  "namespace": "test_namespace",
+  "projects":
+  [
+    {
+      "name": "test_project",
+      "results": ["brakeman", "rubocop"],
+      "last_run": "2015-02-04 00:00:00",
+      "author": "author name string"
+    },
+    {
+      "name": "test_project0",
+      "results": ["jshint"],
+      "last_run": "2015-02-04 01:00:00",
+      "author": "author name string"
+    }
+  ]
+}
